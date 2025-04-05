@@ -13,10 +13,29 @@ A real-time cryptocurrency data provider for Model Context Protocol (MCP) server
 - Fully typed with TypeScript
 - Compatible with MCP server SDK
 
-## Installation
+## 🚀 Quick Start
 
-```bash`
-npm install realtime-crypto-mcp-server
+To get started, add this configuration to your MCP Client config json:
+
+```json
+{
+  "mcpServers": {
+    "realtime-crypto": {
+      "command": "npx",
+      "args": ["realtime-crypto-mcp-server"]
+    }
+  }
+}
+```
+
+## Prerequisites
+
+- Node.js 18+
+- npx
+
+## Development
+
+<pre> ```bash # Install dependencies npm install # Build the server npm run build ``` </pre>
 
 
 # Crypto Exchange & Rates Toolkit
