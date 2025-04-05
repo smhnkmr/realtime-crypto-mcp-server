@@ -35,8 +35,17 @@ To get started, add this configuration to your MCP Client config json:
 
 ## Development
 
-<pre> ```bash # Install dependencies npm install # Build the server npm run build ``` </pre>
+Install dependencies:
 
+```bash
+npm install
+```
+
+Build the server:
+
+```bash
+npm run build
+```
 
 # Crypto Exchange & Rates Toolkit
 
