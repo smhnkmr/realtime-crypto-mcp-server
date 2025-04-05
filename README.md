@@ -15,7 +15,7 @@ A real-time cryptocurrency data provider for Model Context Protocol (MCP) server
 
 ## Installation
 
-```bash
+```bash`
 npm install realtime-crypto-mcp-server
 
 
@@ -25,7 +25,7 @@ This package provides tools to retrieve detailed information about cryptocurrenc
 
 ---
 
-## 🔧 API Reference
+## API Reference
 
 ### `getExchangeDetailsTool`
 Get detailed information about cryptocurrency exchanges.
