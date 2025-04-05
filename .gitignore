@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE specific files
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/

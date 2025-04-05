@@ -1,0 +1,28 @@
+{
+  "name": "realtime-crypto-mcp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "realtime",
+    "mcp",
+    "modelcontextprotocol"
+  ],
+  "author": "Mohan Kumar",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.2"
+  }
+}
